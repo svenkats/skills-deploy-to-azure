@@ -1,4 +1,4 @@
-name: Configure Azure environment
+tsname: Configure Azure environment
 
 on:
   pull_request:
@@ -12,7 +12,7 @@ env:
   ###############################################
   ### Replace <username> with GitHub username ###
   ###############################################
-  AZURE_WEBAPP_NAME: <username>-ttt-app
+  AZURE_WEBAPP_NAME: svenkats-ttt-app
 
 jobs:
   setup-up-azure-resources:
